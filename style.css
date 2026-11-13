@@ -1,0 +1,83 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  color: #221321;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color:#925294;
+  color: rgb(248, 213, 248);
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Cor da barra de navegação */
+.navbar {
+    background-color: #925294;
+}
+
+main{
+  background-color: rgb(248, 213, 248);
+  color: #925294;
+}
+
+/* Seções */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 65px;
+}
+
+.fundo-claro {
+  background-color: #faeffa79;
+}
+
+.texto-perfil {
+  max-width: 750px;
+}
+
+/* Recurso novo: transição ao passar o mouse */
+.habilidade {
+  padding: 18px 10px;
+  background-color: rgba(255, 255, 255, 0.497);
+  border: 1px solid #e8cce8;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+}
+
+.habilidade:hover {
+  transform: translateY(-5px);
+  background-color: #eedcf77c;
+}
+
+.projeto-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.projeto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(23, 23, 23, 0.12);
+}
+
+.btn-primary {
+  background-color: #9b5095;
+  border-color: #9b5091;
+}
+
+.btn-primary:hover {
+  background-color: #783970;
+  border-color: #783972;
+}
+
+footer{
+    background-color: #925294;
+    color: rgb(248, 213, 248)
+}
